@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'container/animated_container.dart';
+import 'package:fluttercourse/widgets/padding/sample_padding.dart';
 
 void main() {
   runApp(MyApp());
@@ -17,7 +16,7 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       //home: MyHomePage(title: 'Flutter Demo Home Page'),
-      home: AnimatedContainerSample(),
+      home: SimplePadding(),
     );
   }
 }
