@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fluttercourse/widgets/margin/simple_margin.dart';
+import 'package:fluttercourse/widgets/align/simple_align.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       //home: MyHomePage(title: 'Flutter Demo Home Page'),
-      home: SimpleMargin(),
+      home: SimpleAlign(),
     );
   }
 }
