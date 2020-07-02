@@ -8,4 +8,7 @@ const spacing10 = 10.0;
 const spacing12 = 12.0;
 const spacing16 = 16.0;
 
+const container140Size = 140.0;
+const container160Size = 160.0;
+const container180Size = 180.0;
 const containerSize = 200.0;
