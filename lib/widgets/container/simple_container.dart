@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:fluttercourse/common/constants.dart';
 import 'package:fluttercourse/common/custom_scaffold.dart';
 
-const _boxSize = 200.0;
 const _containerText = "This is my sample container";
 
 class SimpleContainer extends StatelessWidget {
@@ -15,9 +15,9 @@ class SimpleContainer extends StatelessWidget {
           //color: Colors.green,
           child: _getSimpleTextWidget(),
           // Define custom width for the widgets.container
-          width: _boxSize,
+          width: containerSize,
           // Define custom height for the widgets.container
-          height: _boxSize,
+          height: containerSize,
           // Align the child of widgets.container to the center
           alignment: Alignment.center,
           // How we can customize the color, shape, etc, of the widgets.container
@@ -46,16 +46,19 @@ class SimpleContainer extends StatelessWidget {
   }
 
   Border _getBorderGrey() {
-    return Border.all(color: Colors.blueGrey, width: 6.0);
+    return Border.all(color: Colors.blueGrey, width: spacing6);
   }
 
   BorderRadiusGeometry _getRoundedBorder() {
-    return BorderRadius.all(Radius.circular(12.0));
+    return BorderRadius.all(Radius.circular(spacing12));
   }
 
   List<BoxShadow> _getShadowForContainer() {
     return [
-      BoxShadow(offset: Offset(2.0, 4.0), blurRadius: 10.0, spreadRadius: 1.0)
+      BoxShadow(
+          offset: Offset(spacing2, spacing4),
+          blurRadius: spacing10,
+          spreadRadius: spacing1)
     ];
   }
 }

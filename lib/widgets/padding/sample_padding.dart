@@ -1,11 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:fluttercourse/common/constants.dart';
 import 'package:fluttercourse/common/custom_scaffold.dart';
-
-const _padding2 = 2.0;
-const _padding4 = 4.0;
-const _padding8 = 8.0;
-const _padding16 = 16.0;
-const _containerSize = 200.0;
 
 class SimplePadding extends StatelessWidget {
   @override
@@ -13,7 +8,7 @@ class SimplePadding extends StatelessWidget {
     return CustomScaffold(
       title: "Simple Padding",
       body: Padding(
-        padding: EdgeInsets.all(_padding16),
+        padding: EdgeInsets.all(spacing16),
         child: Container(
           color: Colors.red,
           alignment: Alignment.center,
@@ -25,12 +20,11 @@ class SimplePadding extends StatelessWidget {
 
   Widget _getChildContainer() {
     return Container(
-      width: _containerSize,
-      height: _containerSize,
+      width: containerSize,
+      height: containerSize,
       color: Colors.white,
       child: Padding(
-        padding:
-            EdgeInsets.fromLTRB(_padding4, _padding16, _padding8, _padding2),
+        padding: EdgeInsets.fromLTRB(spacing4, spacing16, spacing8, spacing2),
         child: Container(
           color: Colors.red,
         ),
