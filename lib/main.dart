@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fluttercourse/widgets/row/text_simple_row.dart';
+import 'package:fluttercourse/widgets/column/simple_column.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       //home: MyHomePage(title: 'Flutter Demo Home Page'),
-      home: TextSimpleRow(),
+      home: SimpleColumn(),
     );
   }
 }
