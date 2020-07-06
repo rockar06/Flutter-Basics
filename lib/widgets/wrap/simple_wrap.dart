@@ -2,23 +2,25 @@ import 'package:flutter/material.dart';
 import 'package:fluttercourse/common/constants.dart';
 import 'package:fluttercourse/common/custom_scaffold.dart';
 
-class SimpleRow extends StatelessWidget {
+class SimpleWrap extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomScaffold(
-      title: "Simple Row",
+      title: "Simple Wrap",
       body: Container(
         color: Colors.grey,
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.start,
-          // Setting the size the row will take in the horizontal axis
-          //mainAxisSize: MainAxisSize.min,
+        child: Wrap(
+          crossAxisAlignment: WrapCrossAlignment.center,
+          spacing: 20.0,
+          alignment: WrapAlignment.center,
+          direction: Axis.vertical,
           children: [
-            _getBaseContainer(smallContainerSize, Colors.green),
-            _getBaseContainer(smallContainerSize, Colors.purple),
-            _getBaseContainer(mediumContainerSize, Colors.blue),
             _getBaseContainer(smallContainerSize, Colors.red),
+            _getBaseContainer(mediumContainerSize, Colors.blue),
+            _getBaseContainer(smallContainerSize, Colors.purple),
+            _getBaseContainer(containerSize, Colors.yellow),
+            _getBaseContainer(smallContainerSize, Colors.red),
+            _getBaseContainer(mediumContainerSize, Colors.blue),
           ],
         ),
       ),
