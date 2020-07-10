@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fluttercourse/images/simple_images.dart';
+import 'package:fluttercourse/buttons/sample_buttons.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       //home: MyHomePage(title: 'Flutter Demo Home Page'),
-      home: SimpleImages(),
+      home: SampleButton(),
     );
   }
 }
