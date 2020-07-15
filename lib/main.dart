@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:fluttercourse/scaffold/sample_bottom_sheet.dart';
+
+import 'lists/sample_list_separated.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       //home: MyHomePage(title: 'Flutter Demo Home Page'),
-      home: SampleBottomSheet(),
+      home: SampleListSeparated(),
     );
   }
 }
