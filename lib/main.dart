@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'lists/sample_list_separated.dart';
+import 'lists/basic/sample_list_separated.dart';
 
 void main() {
   runApp(MyApp());
