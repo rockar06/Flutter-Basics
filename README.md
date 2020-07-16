@@ -1,18 +1,17 @@
-# fluttercourse
+# Flutter Basics
 
 A new Flutter project for the sample course.
 
-## Getting Started
+## About the project
 
-This is my test for my sample course
+This projects shows the usage of some Flutter Widgets to develop Flutter apps.
 
-This project is a starting point for a Flutter application.
+Some of the used Widgets in the project are:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Scaffold
+- Buttons
+- Text
+- Container
+- Column / Row
+- ListView
+- Image
