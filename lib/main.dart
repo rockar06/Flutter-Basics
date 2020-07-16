@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_basics/lists/basic/grid/sample_grid_custom.dart';
+
+import 'lists/sliver/sample_sliver_list.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       //home: MyHomePage(title: 'Flutter Demo Home Page'),
-      home: SampleGridCustom(),
+      home: SampleSliverList(),
     );
   }
 }
