@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fluttercourse/common/custom_scaffold.dart';
+import 'package:flutter_basics/common/custom_scaffold.dart';
 
 class SampleListSeparated extends StatelessWidget {
   @override

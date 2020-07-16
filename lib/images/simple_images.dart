@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:fluttercourse/common/constants.dart';
-import 'package:fluttercourse/common/custom_scaffold.dart';
+import 'package:flutter_basics/common/constants.dart';
+import 'package:flutter_basics/common/custom_scaffold.dart';
 
 const _assetTitle = "Image from Assets";
 const _assetImagePath = "assets/images/owl.jpg";

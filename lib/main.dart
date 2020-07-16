@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fluttercourse/lists/basic/grid/sample_grid_custom.dart';
+import 'package:flutter_basics/lists/basic/grid/sample_grid_custom.dart';
 
 void main() {
   runApp(MyApp());
