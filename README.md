@@ -15,3 +15,9 @@ Some of the used Widgets in the project are:
 - Column / Row
 - ListView
 - Image
+
+## Contributors
+
+Here are listed all the contributors of the project:
+
+- [@rockar06](https://github.com/rockar06)
