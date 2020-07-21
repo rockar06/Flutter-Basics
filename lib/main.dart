@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'lists/sliver/sample_sliver_list.dart';
+import 'package:flutter_basics/http/menu_http.dart';
 
 void main() {
   runApp(MyApp());
@@ -17,7 +16,7 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       //home: MyHomePage(title: 'Flutter Demo Home Page'),
-      home: SampleSliverList(),
+      home: MenuHttp(),
     );
   }
 }
