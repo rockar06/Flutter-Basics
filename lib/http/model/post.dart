@@ -14,6 +14,12 @@ class Post {
   factory Post.fromJson(Map<String, dynamic> json) => _$PostFromJson(json);
 
   static List<Post> fromListJson(List<dynamic> json) {
-    return json.cast<Post>();
+    var postList = List<Post>();
+    if (json.isEmpty)
+      return postList;
+    else {
+      postList = json.map((data) => Post.fromJson(data)).toList();
+      return postList;
+    }
   }
 }

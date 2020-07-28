@@ -38,17 +38,45 @@ class _SampleGetDataState extends State<SampleGetData> {
           future: listOfPosts,
           builder: (context, snapshot) {
             if (snapshot.hasData) {
-              return Text(
-                  "Number of items in the list is: ${snapshot.data.length}");
+              return PostList(
+                posts: snapshot.data,
+              );
             } else if (snapshot.hasError) {
               return Text("${snapshot.error}");
             }
-
-            // By default, show a loading spinner.
             return CircularProgressIndicator();
           },
         ),
       ),
+    );
+  }
+}
+
+class PostList extends StatelessWidget {
+  final List<Post> posts;
+
+  const PostList({Key key, this.posts}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return ListView.separated(
+      itemCount: posts.length,
+      itemBuilder: (context, index) {
+        return Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              posts[index].title,
+              overflow: TextOverflow.ellipsis,
+              style: Theme.of(context).textTheme.headline5,
+            ),
+            Text(
+              posts[index].body,
+            )
+          ],
+        );
+      },
+      separatorBuilder: (context, index) => Divider(),
     );
   }
 }
