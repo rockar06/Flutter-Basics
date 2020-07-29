@@ -15,6 +15,9 @@ class PostManual {
     );
   }
 
+  Map<String, dynamic> toJson() =>
+      {'userId': userId, 'id': id, 'title': title, 'body': body};
+
   static List<PostManual> fromListJson(List<dynamic> json) {
     var listOfPosts = List<PostManual>();
     if (json.isEmpty) {
