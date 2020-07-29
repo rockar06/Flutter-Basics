@@ -9,7 +9,7 @@ class SampleBottomAppBar extends StatelessWidget {
           builder: (context) => FloatingActionButton(
                 onPressed: () {
                   var snackBar = SnackBar(
-                    content: Text("Bulding app..."),
+                    content: Text('Bulding app...'),
                     behavior: SnackBarBehavior.floating,
                   );
                   Scaffold.of(context).showSnackBar(snackBar);
@@ -35,7 +35,7 @@ class CustomBottomAppBar extends StatelessWidget {
                 Icons.list,
                 color: Colors.white,
               ),
-              text: "Products"),
+              text: 'Products'),
           Expanded(child: Container(width: 0.0, height: 0.0)),
           BottomAppBarItem(
               onPressed: () {},
@@ -43,7 +43,7 @@ class CustomBottomAppBar extends StatelessWidget {
                 Icons.cloud_upload,
                 color: Colors.white,
               ),
-              text: "Upload"),
+              text: 'Upload'),
         ],
       ),
     );

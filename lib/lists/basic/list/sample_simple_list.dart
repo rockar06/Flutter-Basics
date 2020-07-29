@@ -5,7 +5,7 @@ class SimpleList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomScaffold(
-      title: "Simple List",
+      title: 'Simple List',
       body: ListView(
         children: [
           Container(

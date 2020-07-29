@@ -5,7 +5,7 @@ class SampleBottomSheet extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Sample Bottom Sheet"),
+        title: Text('Sample Bottom Sheet'),
       ),
       floatingActionButton: Builder(
         builder: (context) => FloatingActionButton(
@@ -32,7 +32,7 @@ class SampleBottomSheet extends StatelessWidget {
                   itemCount: 25,
                   itemBuilder: (context, index) {
                     return ListTile(
-                      title: Text("Item $index"),
+                      title: Text('Item $index'),
                       leading: Icon(Icons.camera_alt),
                     );
                   }),

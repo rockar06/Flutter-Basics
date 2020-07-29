@@ -6,7 +6,7 @@ class SimpleRow extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomScaffold(
-      title: "Simple Row",
+      title: 'Simple Row',
       body: Container(
         color: Colors.grey,
         child: Row(

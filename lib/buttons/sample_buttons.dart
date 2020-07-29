@@ -6,7 +6,7 @@ class SampleButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomScaffold(
-      title: "Sample Buttons",
+      title: 'Sample Buttons',
       body: Padding(
         padding: EdgeInsets.all(8.0),
         child: Center(
@@ -15,7 +15,7 @@ class SampleButton extends StatelessWidget {
             children: [
               FlatButton(
                 onPressed: () {},
-                child: Text("Flat button"),
+                child: Text('Flat button'),
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.all(Radius.circular(spacing12))),
                 padding: EdgeInsets.all(spacing24),
@@ -24,14 +24,14 @@ class SampleButton extends StatelessWidget {
               _getVerticalSpace(),
               OutlineButton(
                 onPressed: () {},
-                child: Text("Outline Button"),
+                child: Text('Outline Button'),
                 borderSide: BorderSide(color: Colors.grey, width: spacing4),
                 highlightedBorderColor: Colors.red,
               ),
               _getVerticalSpace(),
               RaisedButton(
                 onPressed: () {},
-                child: Text("Raised Button"),
+                child: Text('Raised Button'),
                 color: Colors.blue,
                 textColor: Colors.white,
                 elevation: spacing16,

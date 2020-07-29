@@ -6,7 +6,7 @@ class SimpleColumn extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomScaffold(
-      title: "Simple Column",
+      title: 'Simple Column',
       body: Container(
         color: Colors.grey,
         child: Column(

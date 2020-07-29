@@ -34,7 +34,7 @@ class SampleIconBottomAppBar extends StatelessWidget {
           builder: (context) => FloatingActionButton(
                 onPressed: () {
                   var snackBar = SnackBar(
-                    content: Text("Bulding app..."),
+                    content: Text('Bulding app...'),
                     behavior: SnackBarBehavior.floating,
                   );
                   Scaffold.of(context).showSnackBar(snackBar);

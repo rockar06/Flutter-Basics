@@ -6,7 +6,7 @@ class SimpleStack extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomScaffold(
-      title: "Simple Stack",
+      title: 'Simple Stack',
       body: Center(
         child: Stack(
           alignment: Alignment.center,

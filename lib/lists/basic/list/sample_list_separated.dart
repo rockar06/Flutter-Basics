@@ -5,11 +5,11 @@ class SampleListSeparated extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomScaffold(
-      title: "List Separated",
+      title: 'List Separated',
       body: ListView.separated(
           itemBuilder: (context, index) {
             return ListTile(
-              title: Text("Item number: $index"),
+              title: Text('Item number: $index'),
               onTap: () {},
             );
           },

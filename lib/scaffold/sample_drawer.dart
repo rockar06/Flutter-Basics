@@ -5,7 +5,7 @@ class SampleDrawer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Simple Drawer"),
+        title: Text('Simple Drawer'),
       ),
       drawer: Drawer(
         child: ListView(
@@ -18,26 +18,26 @@ class SampleDrawer extends StatelessWidget {
               decoration: BoxDecoration(color: Colors.red),
             ),
             ListTile(
-              title: Text("My List"),
+              title: Text('My List'),
               onTap: () {
                 Navigator.of(context).pop();
               },
             ),
             ListTile(
-              title: Text("Favorites"),
+              title: Text('Favorites'),
               onTap: () {
                 Navigator.of(context).pop();
               },
             ),
             ListTile(
-              title: Text("Deleted"),
+              title: Text('Deleted'),
               onTap: () {
                 Navigator.of(context).pop();
               },
             ),
             Divider(),
             ListTile(
-              title: Text("About"),
+              title: Text('About'),
               onTap: () {
                 Navigator.of(context).pop();
               },

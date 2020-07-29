@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fluttercourse/common/custom_scaffold.dart';
 
-const smallText = "This is a sample Text";
+const smallText = 'This is a sample Text';
 const fontSize = 30.0;
 const height = 45.0;
 
@@ -9,7 +9,7 @@ class SimpleTextStyle extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomScaffold(
-        title: "Simple Text Style",
+        title: 'Simple Text Style',
         body: Container(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,

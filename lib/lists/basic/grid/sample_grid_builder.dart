@@ -5,7 +5,7 @@ class SampleGridBuilder extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomScaffold(
-      title: "Grid Builder",
+      title: 'Grid Builder',
       body: GridView.builder(
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 3,

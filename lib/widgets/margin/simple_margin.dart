@@ -6,7 +6,7 @@ class SimpleMargin extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomScaffold(
-      title: "Simple Margin",
+      title: 'Simple Margin',
       body: Container(
         margin: EdgeInsets.only(left: spacing16, top: spacing16),
         padding: EdgeInsets.all(spacing16),
@@ -14,7 +14,7 @@ class SimpleMargin extends StatelessWidget {
         width: containerSize,
         height: containerSize,
         child: Text(
-          "Example text",
+          'Example text',
           style: TextStyle(color: Colors.white),
         ),
       ),

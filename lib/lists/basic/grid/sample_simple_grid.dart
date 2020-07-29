@@ -5,7 +5,7 @@ class SampleSimpleGrid extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomScaffold(
-      title: "Simple Grid",
+      title: 'Simple Grid',
       body: GridView.count(
         crossAxisCount: 3,
         padding: EdgeInsets.all(8.0),

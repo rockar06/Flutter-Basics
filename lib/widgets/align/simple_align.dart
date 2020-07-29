@@ -6,7 +6,7 @@ class SimpleAlign extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomScaffold(
-      title: "Simple Align",
+      title: 'Simple Align',
       // Align is taking all space in the body of the Scaffold
       body: Align(
         child: _getSimpleContainerWithText(),
@@ -30,7 +30,7 @@ class SimpleAlign extends StatelessWidget {
       color: Colors.red,
       padding: EdgeInsets.all(spacing16),
       child: Text(
-        "Sample text",
+        'Sample text',
         style: TextStyle(color: Colors.white),
       ),
     );

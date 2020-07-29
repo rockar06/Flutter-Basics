@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:fluttercourse/common/constants.dart';
 import 'package:fluttercourse/common/custom_scaffold.dart';
 
-const _containerText = "This is my sample container";
+const _containerText = 'This is my sample container';
 
 class SimpleContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomScaffold(
-      title: "Simple Container",
+      title: 'Simple Container',
       body: Center(
         child: Container(
           // We can set a background color if we don't use a BoxDecoration

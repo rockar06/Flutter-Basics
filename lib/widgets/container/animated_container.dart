@@ -20,7 +20,7 @@ class _AnimatedContainerSampleState extends State<AnimatedContainerSample> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Animated Container"),
+        title: const Text('Animated Container'),
       ),
       body: Center(
         child: AnimatedContainer(

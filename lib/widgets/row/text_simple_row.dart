@@ -5,7 +5,7 @@ class TextSimpleRow extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomScaffold(
-      title: "Text in Row",
+      title: 'Text in Row',
       body: Row(
         //mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.baseline,
@@ -20,7 +20,7 @@ class TextSimpleRow extends StatelessWidget {
     return Container(
       color: Colors.red,
       child: Text(
-        "Flutter",
+        'Flutter',
         style: TextStyle(fontSize: fontSize),
       ),
     );

@@ -8,7 +8,7 @@ class SimpleIcon extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomScaffold(
-      title: "Simple Icon",
+      title: 'Simple Icon',
       body: Center(
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,

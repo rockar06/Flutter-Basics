@@ -2,23 +2,23 @@ import 'package:flutter/material.dart';
 import 'package:fluttercourse/common/constants.dart';
 import 'package:fluttercourse/common/custom_scaffold.dart';
 
-const _assetTitle = "Image from Assets";
-const _assetImagePath = "assets/images/owl.jpg";
-const _networkTitle = "Image from Network";
+const _assetTitle = 'Image from Assets';
+const _assetImagePath = 'assets/images/owl.jpg';
+const _networkTitle = 'Image from Network';
 const _urlImagesPath =
-    "https://flutter.github.io/assets-for-api-docs/assets/widgets/owl-2.jpg";
-const _customSizeTitle = "Image with custom size";
-const _customScaleTitle = "Image with custom scale";
-const _customFitWidthTitle = "Image with fit width";
-const _customFillTitle = "Image with fit to fill";
-const _customFitNoneTitle = "Image with fit to none";
-const _customColorTitle = "Image with Color";
+    'https://flutter.github.io/assets-for-api-docs/assets/widgets/owl-2.jpg';
+const _customSizeTitle = 'Image with custom size';
+const _customScaleTitle = 'Image with custom scale';
+const _customFitWidthTitle = 'Image with fit width';
+const _customFillTitle = 'Image with fit to fill';
+const _customFitNoneTitle = 'Image with fit to none';
+const _customColorTitle = 'Image with Color';
 
 class SimpleImages extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomScaffold(
-        title: "Simple Images",
+        title: 'Simple Images',
         body: ListView(
           children: [
             ImageItem(title: _assetTitle, child: Image.asset(_assetImagePath)),

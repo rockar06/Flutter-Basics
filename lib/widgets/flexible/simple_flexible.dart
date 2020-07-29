@@ -5,7 +5,7 @@ class SimpleFlexible extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomScaffold(
-      title: "Simple Flexible",
+      title: 'Simple Flexible',
       body: Column(
         children: [
           Flexible(

@@ -6,7 +6,7 @@ class SimpleWrap extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomScaffold(
-      title: "Simple Wrap",
+      title: 'Simple Wrap',
       body: Container(
         color: Colors.grey,
         child: Wrap(

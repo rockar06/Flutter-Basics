@@ -5,7 +5,7 @@ class SimpleExpanded extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomScaffold(
-      title: "Simple Expanded",
+      title: 'Simple Expanded',
       body: Container(
         color: Colors.grey,
         child: Column(

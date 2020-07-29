@@ -7,7 +7,7 @@ class SampleAppBarMenu extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("AppBar Menu"),
+        title: Text('AppBar Menu'),
         actions: [
           PopupMenuButton<MenuOptions>(
             onSelected: (result) {
@@ -15,16 +15,16 @@ class SampleAppBarMenu extends StatelessWidget {
             },
             itemBuilder: (context) => <PopupMenuEntry<MenuOptions>>[
               const PopupMenuItem(
-                child: Text("Favorites"),
+                child: Text('Favorites'),
                 value: MenuOptions.favorites,
               ),
               const PopupMenuItem(
-                child: Text("Settings"),
+                child: Text('Settings'),
                 value: MenuOptions.settings,
               ),
               const PopupMenuDivider(),
               const PopupMenuItem(
-                child: Text("About"),
+                child: Text('About'),
                 value: MenuOptions.about,
               ),
             ],
