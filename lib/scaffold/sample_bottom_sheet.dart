@@ -16,7 +16,7 @@ class SampleBottomSheet extends StatelessWidget {
     );
   }
 
-  _showModalBottomSheet(BuildContext context) {
+  void _showModalBottomSheet(BuildContext context) {
     showModalBottomSheet(
       //showBottomSheet(
       context: context,
